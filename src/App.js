@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Routes>
-        <Route path="/Find a forecast" element={<Home />} />
+        <Route path="/" element={<Home />} />
         {/* <Route path="/Register" element={<Register />} />
         <Route path="/Register" element={<Register />} />
         <Route path="/Register" element={<Register />} /> */}
