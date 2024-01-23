@@ -6,16 +6,16 @@ const Home = () => {
             <div className="box">
                 <div className="rectangle">
                     <p>Find a forecast</p>
-                    <div className="search container" id="search for a place">
-                        <form>
-                            <div>
-                                <input class="search_input" type="text" name="search" placeholder="Enter your city or postcode" />
-                                <button className="search_button" type="submit">Search</button>
+                    <div className="search-container" id="search-for-a-place">
+                        <form className="search">
 
-                            </div>
+                            <input class="search_input" type="text" name="search" placeholder="Enter your city or postcode" />
+                            <button className="search_button" type="submit">Search</button>
+
+
 
                         </form>
-                        
+
 
                     </div>
                     <p2>Recent searches</p2>

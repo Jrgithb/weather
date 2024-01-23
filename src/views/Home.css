@@ -35,15 +35,25 @@ p2{
 .search_input-container{
     
 }
-.search_button{
-    margin-left: -2px;
-    /* border-radius: 50%; */
-    color: black;
-    background-color: none;
+
+
+.search{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
 }
 
-.search_input-container .placeholder{
+/* 
+.search .search_button{
+    margin-left: 320px;
+    border-radius: 50%; 
+    color: black;
+    background-color: none;
+    margin-top: 70px;
+} */
+
+/* .search_input-container .placeholder{
     color: white;
     background-color: red;
     width: 40%;
-}
+} */

@@ -5,7 +5,7 @@ const Register = () =>{
         <div className="register">
             <div className="form-container">
                 <h2>Sign up</h2>
-                <form>
+                <form className="register-form">
                     <label>First Name</label>
                     <input type="text"  placeholder="enter your first name" required />
                     <label>Last Name</label>
