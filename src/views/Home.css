@@ -1,0 +1,30 @@
+.box {
+    height: 210px;
+    width: 470px;
+}
+
+.box .rectangle {
+    background-color: #000000;
+    height: 230px;
+    left: 35%;
+    position: fixed;
+    top: 30%;
+    width: 570px;
+
+}
+
+.search_input-container{
+    
+}
+.search_button{
+    margin-left: 10px;
+    /* border-radius: 50%; */
+    color: black;
+    background-color: none;
+}
+
+.search_input-container .placeholder{
+    color: white;
+    background-color: red;
+    width: 40%;
+}

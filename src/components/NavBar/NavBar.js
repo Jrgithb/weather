@@ -18,8 +18,8 @@ const NavBar = () =>{
              <h1>Health Advice Group</h1>
 
              <div className="nav-buttons">
-
-                <NavButton text="Find a forecast" path="/Find a forecast" />
+{/* 
+                <NavButton text="Find a forecast" path="/Find a forecast" /> */}
                 <NavButton text="Warning and advice" path="/Warning and advice" />
                 <NavButton text="Air quality" path="/Air quality" />
 
