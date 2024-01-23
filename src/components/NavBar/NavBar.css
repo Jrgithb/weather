@@ -1,11 +1,12 @@
 .Nav-container{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: black;
     color: white;
-    padding: 36px;
+    padding: 8px;
     gap: 16px;
-    width: 1835px;
+    width: 100%;
     
 }
 
@@ -32,7 +33,9 @@ img{
     margin-left: 10%;
 }
 
-
+.auth-buttons{
+    margin-left: auto;
+}
 .nav-buttons{
     display: flex;
     gap: 20px;  

@@ -22,9 +22,10 @@ const NavBar = () => {
                 <NavButton text="Find a forecast" path="/Find a forecast" />
                 <NavButton text="Warning and advice" path="/Warning and advice" />
                 <NavButton text="Air quality" path="/Air quality" />
-                <NavButton text="Sign in" path="/Sign in" />
-                <NavButton text="Sign up" path="/Sign up" />
-
+                <div className="auth-buttons">
+                    <NavButton text="Sign in" path="/Sign in" />
+                    <NavButton text="Sign up" path="/Sign up" />
+                </div>
             </div>
 
 
