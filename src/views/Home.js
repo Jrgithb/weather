@@ -2,10 +2,10 @@ import "./Home.css"
 
 const Home = () => {
     return (
-        <div>
+        <div className="home-container">
             <div className="box">
                 <div className="rectangle">
-                    <h1>Find a forecast</h1>
+                    <p>Find a forecast</p>
                     <div className="search container" id="search for a place">
                         <form>
                             <div>
@@ -15,8 +15,11 @@ const Home = () => {
                             </div>
 
                         </form>
+                        
 
                     </div>
+                    <p2>Recent searches</p2>
+
 
                 </div>
 

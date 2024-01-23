@@ -1,3 +1,11 @@
+.home-container{
+
+    background-image: url("https://cdn.pixabay.com/photo/2018/08/23/07/35/thunderstorm-3625405_640.jpg");
+    background-size: cover;
+    width: 1920px;
+    height: 500px;
+}
+
 .box {
     height: 210px;
     width: 470px;
@@ -13,11 +21,21 @@
 
 }
 
+p{
+    color: white;
+}
+
+p2{
+    color: white;
+    margin-right: 20%;
+    margin-bottom: 30%;
+}
+
 .search_input-container{
     
 }
 .search_button{
-    margin-left: 10px;
+    margin-left: -2px;
     /* border-radius: 50%; */
     color: black;
     background-color: none;

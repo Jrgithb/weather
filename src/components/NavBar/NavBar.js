@@ -1,5 +1,5 @@
 import "./NavBar.css"
-import {useNavigate} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const NavButton = ({ text, path }) => {
     const navigate = useNavigate()
@@ -11,19 +11,21 @@ const NavButton = ({ text, path }) => {
     )
 }
 
-const NavBar = () =>{
-    return(
+const NavBar = () => {
+    return (
         <div className="Nav-container">
-        <img src="https://classroomclipart.com/image/static7/preview2/snowflake-intricate-pattern-clip-art-59075.jpg"/>
-             <h1>Health Advice Group</h1>
+            <img src="https://classroomclipart.com/image/static7/preview2/snowflake-intricate-pattern-clip-art-59075.jpg" />
+            <h1>Health Advice Group</h1>
 
-             <div className="nav-buttons">
-{/* 
-                <NavButton text="Find a forecast" path="/Find a forecast" /> */}
+            <div className="nav-buttons">
+
+                <NavButton text="Find a forecast" path="/Find a forecast" />
                 <NavButton text="Warning and advice" path="/Warning and advice" />
                 <NavButton text="Air quality" path="/Air quality" />
+                <NavButton text="Sign in" path="/Sign in" />
+                <NavButton text="Sign up" path="/Sign up" />
 
-             </div>
+            </div>
 
 
         </div>
