@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar';
 import Home from './views/Home';
 import Register from './views/Register';
+import Login from './views/Login';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
         <Route path="/Register" element={<Register />} />
         <Route path="/Register" element={<Register />} /> */}
         <Route path="/Register" element={<Register />} />
+        <Route path="/Login" element={<Login />} />
+        
       </Routes>
     </div>
   );

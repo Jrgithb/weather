@@ -18,7 +18,7 @@ const Register = () =>{
                     <input type="password" placeholder="enter your password" required />
                     <input type="button" value="submit" />
                 </form>
-                <p3>Already have an account? <a href="#">Login here</a></p3>
+                <p3 className="para">Already have an account? <a href="Login.js">Login here</a></p3>
 
             </div>
         </div>

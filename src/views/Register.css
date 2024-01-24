@@ -19,6 +19,14 @@ p3{
     border-radius: 3px;
 }
 
+.Login-container{
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: white;
+}
+
 h2{
     text-align: center;
     padding-top: 15px;
@@ -52,9 +60,17 @@ h4{
 input [type="button"]{
     width: 320px;
     height: 35px;
-    /* margin-top: 20px; */
+    margin-top: 20px; 
     border: none;
-
+    font-size: 18px;
 
 }
+
+.para{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
 
