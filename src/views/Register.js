@@ -1,6 +1,11 @@
+import { useNavigate } from "react-router-dom";
 import "./Register.css"
 
 const Register = () =>{
+
+    const navigate = useNavigate();
+
+
     return(
         <div className="register">
             <div className="form-container">
@@ -18,7 +23,8 @@ const Register = () =>{
                     <input type="password" placeholder="enter your password" required />
                     <input type="button" value="submit" />
                 </form>
-                <p3 className="para">Already have an account? <a href="Login.js">Login here</a></p3>
+                <p3 className="para">Already have an account? </p3> 
+                <a href="Login.js" onclick = {() => navigate("/Login")}>Login here</a>
 
             </div>
         </div>

@@ -1,6 +1,10 @@
 import "./Login.css"
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
+
+    const navigate = useNavigate();
+
     return (
         <div className="Login">
             <div className="Login-container">
@@ -13,7 +17,8 @@ const Login = () => {
                 <input type="button" value="submit" />
 
             </form>
-            <p4 className="para">Not have an account already? <a href="Register.js">Sign Up Here</a></p4>
+            <p4 className="para">Not have an account already? </p4>
+            <a href="Register.js" onclick = {() => navigate("/Register")}>Sign Up Here</a>
             </div>
 
         </div>
