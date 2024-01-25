@@ -14,12 +14,14 @@ const Login = () => {
                 <input type="email" placeholder="enter your email" required />
                 <label>Password</label>
                 <input type="password" placeholder="enter your password" required />
-                <input type="button" value="submit" />
+                <button className="login-btn">Submit</button>
 
             </form>
-            <p4 className="para">Not have an account already? </p4>
-            <a href="Register.js" onclick = {() => navigate("/Register")}>Sign Up Here</a>
-            </div>
+            {/* <p4 className="para">Not have an account already? 
+            <a href="register.js" onclick = {() => navigate("/Register")}>Sign Up Here</a></p4> */}
+            <button className="reg-btn-link" onClick={() => navigate("/Register")}>Don't have an account? Register</button>
+            
+            </div> 
 
         </div>
     )

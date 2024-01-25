@@ -57,20 +57,34 @@ h4{
     outline: none;
 }
 
-input [type="button"]{
+.register-btn{
+    width: 100%;
+    padding: 7px;
+    margin-top: 10px;
+
+}
+
+.reg-btn-link{
+    
+}
+
+
+/* input [type="button"]{
     width: 320px;
     height: 35px;
     margin-top: 20px; 
     border: none;
     font-size: 18px;
 
-}
+} */
 
-.para{
+
+
+/* .para{
     text-align: center;
     color: black;
     font-size: 15px;
-    margin-top: -10px;
-}
+    margin-top: 10px;
+} */
 
 

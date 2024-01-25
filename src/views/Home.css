@@ -40,20 +40,14 @@ p2{
 .search{
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 1px;
+    
 }
 
-/* 
-.search .search_button{
-    margin-left: 320px;
-    border-radius: 50%; 
-    color: black;
-    background-color: none;
-    margin-top: 70px;
-} */
 
-/* .search_input-container .placeholder{
-    color: white;
-    background-color: red;
-    width: 40%;
-} */
+.search_button{
+    width: 75px;
+    padding: 3px;
+
+} 
+

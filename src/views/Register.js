@@ -21,10 +21,11 @@ const Register = () =>{
                     <input type="password" placeholder="enter your password" required />
                     <label>Confirm password</label>
                     <input type="password" placeholder="enter your password" required />
-                    <input type="button" value="submit" />
+                    <button className="register-btn">Submit</button>
                 </form>
-                <p3 className="para">Already have an account? </p3> 
-                <a href="Login.js" onclick = {() => navigate("/Login")}>Login here</a>
+                {/* <p3 className="para">Already have an account? </p3>  */}
+                {/* <a href="Login.js" onclick = {() => navigate("/Login")}>Login here</a> */}
+                <button className="reg-btn-link" onClick={() => navigate("/Login")}>Already have an account? Login</button>
 
             </div>
         </div>

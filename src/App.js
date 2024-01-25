@@ -5,6 +5,7 @@ import NavBar from './components/NavBar/NavBar';
 import Home from './views/Home';
 import Register from './views/Register';
 import Login from './views/Login';
+import Currentweather from './views/Currentweather';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <Route path="/Register" element={<Register />} /> */}
         <Route path="/Register" element={<Register />} />
         <Route path="/Login" element={<Login />} />
-        
+
       </Routes>
     </div>
   );
