@@ -8,6 +8,10 @@ import Login from './views/Login';
 import Currentweather from './views/Currentweather';
 
 function App() {
+
+
+  const url =`https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid=2ab5644c2bb452e7cb929b6666d8e449`
+
   return (
     <div className="App">
       <NavBar />

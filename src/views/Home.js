@@ -9,7 +9,7 @@ const Home = () => {
                         <h2>find a forecast</h2>
                         <form className="search">
 
-                            <input class="search_input" type="text" name="search" placeholder="Enter your city or postcode" />
+                            <input class="search_input" type="text" name="search" placeholder="Find forecast" />
                             <button className="search_button" type="submit">Search</button>
 
                         </form>
