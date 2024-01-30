@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { useState } from 'react';
 import NavBar from './components/NavBar/NavBar';
 import Home from './views/Home';
 import Register from './views/Register';
@@ -9,9 +10,6 @@ import Airquality from './views/Airquality';
 // import Currentweather from './views/Currentweather';
 
 function App() {
-
-
-  const url =`https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid=2ab5644c2bb452e7cb929b6666d8e449`
 
   return (
     <div className="App">
