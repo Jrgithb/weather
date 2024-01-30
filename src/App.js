@@ -5,7 +5,8 @@ import NavBar from './components/NavBar/NavBar';
 import Home from './views/Home';
 import Register from './views/Register';
 import Login from './views/Login';
-import Currentweather from './views/Currentweather';
+import Airquality from './views/Airquality';
+// import Currentweather from './views/Currentweather';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/Air quality" element={<Airquality />} />
         {/* <Route path="/Register" element={<Register />} />
         <Route path="/Register" element={<Register />} />
         <Route path="/Register" element={<Register />} /> */}

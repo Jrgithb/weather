@@ -21,7 +21,7 @@ const NavBar = () => {
 
                 {/* <NavButton text="Find a forecast" path="/Find a forecast" /> */}
 
-                <NavButton text="Current weather" path="/Current weather" />
+                {/* <NavButton text="Current weather" path="/Current weather" /> */}
                 <NavButton text="Home" path="/" />
                 <NavButton text="Warning and advice" path="/Warning and advice" />
                 <NavButton text="Air quality" path="/Air quality" />
