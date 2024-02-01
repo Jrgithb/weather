@@ -10,11 +10,12 @@ const Home = () => {
 
     const getWeather = (event) =>{
         if (event.key == "Enter"){
-            fetch('https://api.openweathermap.org/data/2.5/weather?id={city id}&appid={API key}').then(
+            fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`).then(
                 response => response.json()
             ).then(
                 data =>{
                     setWeatherData(data)
+                    setCity("")
                 }
             )
         }
@@ -34,9 +35,20 @@ const Home = () => {
 
                         </form>
 
+                        {typeof weatherData?.main === 'undefined' ?(
+                            <div></div>
+                        ): (
+                            <div>
+                                <p>{weatherData.name}</p>
+                                <p>{Math.round(weatherData.main.temp)}°F</p>
+                                <p>{weatherData.weather[0].main}</p>
+                            </div>
+
+                        )}
 
                     </div>
-                   
+                    
+                        
 
 
                 </div>
