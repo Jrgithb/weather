@@ -2,8 +2,16 @@ import "./Airquality.css"
 
 const Airquality = () =>{
     return(
-        <div>
-            
+        <div className="air-content">
+            <h2 className="air-quality-header">Air quality</h2>
+            <div className="air-quality-content">
+                <div className="date-content">
+                    {/* <p className="day-of-the-week">Today</p>
+                    <p className="date">2/2</p> */}
+
+                </div>
+
+            </div>
 
         </div>
     )

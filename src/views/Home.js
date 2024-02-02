@@ -9,16 +9,15 @@ const Home = () => {
     const [city, setCity] = useState("")
 
     const getWeather = (event) =>{
-        if (event.key == "Enter"){
+        event.preventDefault()
             fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`).then(
                 response => response.json()
             ).then(
                 data =>{
                     setWeatherData(data)
-                    setCity("")
+                    // setCity("")
                 }
             )
-        }
 
     }
 
@@ -28,9 +27,9 @@ const Home = () => {
             
                     <div className="search-container" id="search-for-a-place">
                         <h2>find a forecast</h2>
-                        <form className="search">
+                        <form className="search" onSubmit={getWeather}>
 
-                            <input class="search_input" type="text" name="search" placeholder="Find forecast" onChange={e => setCity(e.target.value)} value={city} onKeyPress={getWeather}/>
+                            <input class="search_input" type="text" name="search" placeholder="Find forecast" onChange={(e) => setCity(e.target.value)} value={city}/>
                             <button className="search_button" type="submit">Search</button>
 
                         </form>
