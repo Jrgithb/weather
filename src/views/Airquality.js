@@ -3,7 +3,7 @@ import "./Airquality.css"
 const Airquality = () =>{
     return(
         <div className="air-content">
-            <h2 className="air-quality-header">Air quality</h2>
+            <h2 className="air-quality-header">Current air quality</h2>
             <div className="air-quality-content">
                 <div className="date-content">
                     {/* <p className="day-of-the-week">Today</p>

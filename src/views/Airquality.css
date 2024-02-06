@@ -1,4 +1,15 @@
+.air-content{
+    background-color: #344a72;
+    background-size: cover;
+    padding: 34px;
+}
+
 .air-quality-header{
-    /* margin-left: 10%; */
-    border-bottom: 1px solid grey;
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+    margin-top: 5%;
+    color: black;
 }
