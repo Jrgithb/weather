@@ -2,11 +2,12 @@
     background-color: #344a72;
     background-size: cover;
     padding: 38px;
+    height: 800px;
 }
 
 .air-quality-header{
     width: 360px;
-    height: 500px;
+    height: 275px;
     margin: auto;
     background-color: white;
     border-radius: 3px;
