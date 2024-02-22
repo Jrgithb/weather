@@ -7,6 +7,7 @@ import Home from './views/Home';
 import Register from './views/Register';
 import Login from './views/Login';
 import Airquality from './views/Airquality';
+import Health from './views/Health';
 // import Currentweather from './views/Currentweather';
 
 function App() {
